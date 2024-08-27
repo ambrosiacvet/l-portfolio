@@ -1,0 +1,110 @@
+body {
+    background-color: #eee;
+}
+
+h1 {
+    font-family: "Chakra Petch", monospace;
+    font-weight: 300;
+    font-size: 400%;
+}
+
+h2 {
+    font-family: "Chakra Petch", monospace;
+    font-weight: 600;
+    font-size: 200%;
+    color: #009C77;
+}
+
+h3 {
+    font-family: "Chakra Petch", Monospace;
+    font-weight: 400;
+    font-size: 200%;
+    color: #9C2700;
+}
+
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 125%;
+    font-style: italic;
+    color: #4F271A;
+}
+
+p, a {
+    font-family: Georgia,'Times New Roman', Times, serif;
+    font-size: 100%;
+    font-weight: 400;
+    color: #444;
+}
+
+.main-bg p {
+    font-style: italic;
+    color: #eee;
+    font-weight: 100;
+}
+
+div.scrollspy-example {
+    height: 85vh;
+    overflow-y: scroll;
+    border-left: 1px bold #009C77;
+}
+
+div.main-bg {
+    height: 100vh;
+    background-color: #176150;
+    color: #eee;
+    background: linear-gradient(0deg, rgba(23,97,80,1) 50%, rgba(33,66,59,1) 100%);
+}
+
+div.row {
+    width: 100vw;
+}
+
+i {
+    color: #eee;
+    font-size: 200%;
+}
+
+.card {
+    background-color: #eee;
+    border-width: 0px;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+.btn-outline-dark {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    font-weight: 400;
+    color: #176150;
+    border-color: #009C77;
+    width: fit-content;
+}
+
+.btn-outline-dark:hover {
+    color: #eee;
+    background-color: #21423B;
+    border-color: #21423B;
+}
+
+.btn-outline-dark:active {
+    color: #eee;
+    background-color: #9C2700;
+}
+
+.list-group-item:link {
+    background-color: #176150;
+    border-color: #009C77;
+    color: #eee;
+}
+
+.list-group-item:hover {
+    background-color: #eee;
+    color: #176150;
+}
+
+.list-group-item.active {
+    background-color: #21423B;
+    border-color: #009C77;
+    color: #eee;
+}
