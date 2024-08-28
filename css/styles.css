@@ -65,6 +65,14 @@ i {
     font-size: 200%;
 }
 
+i:hover {
+    color: #009C77;
+}
+
+i:active {
+    color: #21423B;
+}
+
 .card {
     background-color: #eee;
     border-width: 0px;
